@@ -21,6 +21,16 @@ body{
     color: white;
 }
 
+#header a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
 #card
 {
     background-color: #B45253;
@@ -37,16 +47,48 @@ body{
     padding: 16px;
 }
 
+#card-content img
+{
+    margin: 10px auto;
+    display: block;
+}
+
+#card-content
+{
+    padding: 10px;
+}
+
+#card-content h2
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#card-content h3
+{
+    margin-top: 10px;
+}
+
 #card-content ul
 {
     list-style-type: none;
     padding-top: 10px;
 }
 
+#card-content #list-Ingredients
+{
+    padding-top: 5px;
+}
+
+#card-content .sub-ingredients
+{
+    padding-top: 3px;
+    padding-left: 8px;
+}
 
 #card-content li
 {
-    padding: 10px;
+    padding: 5px;
 }
 
 #card-content li a
@@ -54,4 +96,9 @@ body{
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+#steps
+{
+    padding-left: 30px;
 }
